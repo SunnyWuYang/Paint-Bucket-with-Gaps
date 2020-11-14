@@ -91,15 +91,3 @@ def floodfill_with_gap(img, seedX, seedY, gap):
     cv2.floodFill(normalFilled, finalResult, (seedY, seedX),
                   0, (0,)*3, (0,)*3, flood_fill_flags)
     return finalResult[1:-1, 1:-1]
-
-
-if __name__ == '__main__':
-    img = cv2.imread(
-        '/Users/cwy/Documents/papers/pythonlearn/layer_back.png', 0)
-    img = np.array(img, dtype=np.uint8)
-
-    seedX = 65
-    seedY = 83
-    gap = 10
-    result = floodfill_with_gap(img, seedX, seedY, gap)
-    cv2.imwrite('result.png', result*255)
