@@ -12,13 +12,13 @@ python simplePainter.py
 1. First, press 'b' to enter brush mode, then click left mouse button and move it to draw something with small gap(like the pic below).
 (also, you can press 'e' to erase your drawing, or '-/+' to change your brush size)
 <p align="center">
-  <img src="screenshot.jpg">
+  <img src="screenshot.jpg" width='400' height='300'>
 </p>
 2. Second, press 's' to enter seed mode, then click left mouse button in the appropriate area(for example, in the circle with gap).
 The floodfill result will be automatically saved according to your specified save path.
 **Result**
 <p align="center">
-  <img src="result.png">
+  <img src="result.png" width='400' height='300'>
 </p>
 
 **Reference:**  
