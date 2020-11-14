@@ -16,7 +16,7 @@ python simplePainter.py
 </p>
 2. Second, press 's' to enter seed mode, then click left mouse button in the appropriate area(for example, in the circle with gap).
 The floodfill result will be automatically saved according to your specified save path.
-**Result**
+
 <p align="center">
   <img src="result.png" width='400' height='300'>
 </p>
